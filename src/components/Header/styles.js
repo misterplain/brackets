@@ -31,8 +31,11 @@ const styles = {
     }),
     logo: (theme)=>({
         width: "100%",
-        fontSize: "1.5rem",
+        fontSize: "1rem",
         color: "white",
+        [theme.breakpoints.up("sm")]: {
+            fontSize: "1.5rem",
+        }
     }),
     linksWrapper: (theme)=>({
         display: "flex",
@@ -43,8 +46,12 @@ const styles = {
     }),
 
     headerButton: (theme)=>({
-        marginLeft: "20px",
-        fontSize: "1.5rem",
+        marginLeft: "10px",
+        fontSize: "1rem",
+        [theme.breakpoints.up("sm")]: {
+            marginLeft: "20px",
+            fontSize: "1.5rem",
+        }
 
     })
 }
