@@ -50,4 +50,4 @@
 3. [ ]  Checkout button that brings up modal with summary of cart items and price, confirmation if they want to proceed, and a button to proceed to send commission request
 4. [ ]  Checkout Modal has an input box to include additional information "want x but with these colors and twice the size etc" 
 5. Checkout Modal has an option to send confirmation email directly to customer with commission request info? As there is no user auth/accounts this will be a good way for the customer to have a record of their commission request.
-5. [ ]  Secondary modal confirmation that commission has been sent to paula and she'll contact you directly
+6. [ ]  Secondary modal confirmation that commission has been sent to paula and she'll contact you directly

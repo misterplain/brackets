@@ -14,10 +14,15 @@ const styles = {
 const DesignScreen = () => {
   return (
     <Box sx={styles.wrapper}>
-      <Link href=''></Link>
+       <Link
+        href='https://github.com/misterplain/brackets'
+        target='_blank'
+        rel='noopener'
+        style={{ textDecoration: "none" }}
+      >
       <Button variant='outlined' sx={{ margin: "20px" }}>
         RUNNING TO-DO LIST (IN README)
-      </Button>
+      </Button></Link>
       <Link
         href='https://imagecolorpicker.com/'
         target='_blank'
